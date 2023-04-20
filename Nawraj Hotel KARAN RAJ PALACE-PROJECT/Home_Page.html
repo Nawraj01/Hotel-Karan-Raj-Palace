@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New home nawraj</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css for Nav-bar.css">
+    <link rel="stylesheet" href="Footer-Css.css">
+<style>
+    .slide-area{
+        background-image: url(Hotel-Banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 1;
+        text-align: center;
+    }
+    .hotel-name{
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        padding-top: 340px;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 20px 30px rgba(0, 0, 0, 0.5);
+    }
+    .hotel-name:hover{
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 7px 0 #ccc, 0 8px 0 #ccc,
+                0 9px 0 #ccc, 0 10px 0 #ccc,
+                0 20px 30px rgba(0, 0, 0, 0.5);
+    }
+    form{
+        margin-top: 290px;
+    }
+    .container{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        font-family: Merriweather;
+        font-size: larger;
+        font-weight: bolder;
+        color: rgb(41, 38, 38);
+        margin-right: 65px;
+        margin-left: 100px;
+        box-shadow: 0 40px 80px 0 hsl(0, 0%, 75%);
+    }   
+    .date-padding{        
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    .booking-datepicker input{
+        border-color: orange;
+        border-radius: 5px;
+        border-width: thin;
+        color: grey;
+        margin-top: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+        margin-left: 50px;
+        width: 150px;
+    }
+    .padding-selector{
+        padding-left: 50px;
+    }
+    .choose{
+        border-color: orange;
+        border-radius: 5px;
+        border-width: thin;
+        color: grey;
+        margin-top: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px 30px 15px 20px;
+        font-size: medium;
+        font-weight: lighter;
+        margin-left: 50px;        
+    }
+    input.Now-book{
+        margin-top: 97px;
+        margin-bottom: 45px;
+        background-color: rgb(207, 147, 35);
+        padding: 15px 40px 15px 40px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: large;
+    }
+    .title-book{
+        text-decoration: none;
+        color: white;
+    }
+    .Now-book:hover{
+        background-color: orange;
+    }
+    .box{
+        margin-left: 50px;
+    }
+    .half_border-img{
+        background-image: url(Rancho-Mirage-Home-Additions1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 400px;
+        width: 1600px;
+        border-right: 65px solid rgb(133, 91, 14);
+        border-top: 65px solid orange;
+    }
+    .about{
+        margin-top: 210px;
+        display: flex;
+    }
+    .experience{ 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: xx-large; 
+        background-color: #262626; 
+        color: aliceblue; 
+        margin: 310px 50px auto 80px; 
+        border-radius: 10px; 
+        padding: 40px 40px 40px 60px;
+        transition: transform 1s;
+        box-shadow: 0px 25px 30px -5px hsl(0, 0%, 90%);;
+    }
+    .experience:hover{
+        transform: scale(1.1);        
+    }
+    h6.title-company{
+        color: rgb(235, 158, 16); 
+        font-size: medium;
+    }
+    .font-paragraph-company{
+        line-height: 1.2em; 
+        margin-top: 40px; 
+        color: grey; 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        font-weight: lighter; 
+        font-size: medium;
+        word-wrap: break-word;
+    }
+    .front-title{
+        margin-top: 10%; 
+        text-align: center; 
+        color: #112e41; 
+        font-size: 50px;
+        font-family: 'Noto Serif', serif;
+    }
+    .span-1{
+        padding-left: 95px; 
+        padding-top: 65px; 
+        padding-right: 20%;
+        width: 1050px;
+    }
+    .p1{
+        line-height: 1.2em; 
+        font-family: sans-serif; 
+        margin-top: 45px;
+        color: rgb(55, 55, 110);
+        font-size: large;
+    }
+    .room-img{
+        overflow: hidden; 
+        height: 370px; 
+        overflow: hidden; 
+        border-radius: 5px;
+    }
+    .margin-first-room{
+        margin-left: 7%;
+    }
+    .margin-room{
+        margin-left: 30px;
+    }
+    .room-container{ 
+        width: 370px;   
+        border-radius: 5px;       
+    }
+    .room-img:hover{
+        border-radius: 0;
+    }
+    .room-img a img{
+        transition: transform 1s;
+    }
+    .room-img a img:hover{
+        transform: rotate(1deg) scale(1.2);
+        border-radius: 0px;
+    }
+    .room-title a{
+        color: #103046; 
+        text-decoration: none; 
+        font-size: 28px;
+        font-weight: 600; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .room-title a:hover{
+        color: rgb(161, 116, 33);
+    }
+    .description-room{
+        background-color: transparent; 
+        margin-top: 0; 
+        border-end-end-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding-left: 35px; 
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: 0px 10px 40px 0px hsl(0, 0%, 90%); 
+    }
+    .description-room:hover{
+        border-top: none;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
+        border-bottom-left-radius: 5px;
+        border-end-end-radius: 5px;
+    }
+    small{
+        color: rgb(109, 107, 107);
+        font-size: 15px;
+    }
+    sup{
+        font-size: 11px; 
+        color: #112e41; 
+        display: flex; 
+        padding-top: 20px; 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .view-more{
+        background-image: linear-gradient(blue,purple,rgb(238, 83, 109));
+        font-size: 24px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 100px auto auto 550px;
+        border-radius: 6px;
+        border-color: blue;
+        padding: 15px 30px 15px 30px;
+        transition: transform 0.5s;
+    }
+    .view-more:hover{
+        transform: scale(1.1);
+    }
+    .resturent{
+        background-image: url(dining-img.png.png);
+        background-repeat: no-repeat;
+        margin-top: 150px;
+        padding-top: 10%;
+        padding-bottom: 100px;
+    }
+    .text-resturent{
+        background-color: whitesmoke; 
+        margin-left: 37%; 
+        padding-top: 100px; 
+        padding-left: 100px;
+        padding-bottom: 70px;
+        border-radius: 7px;
+        opacity: 0.9;
+        width: 650px;
+    }
+    .text-resturent h5{
+        color: rgb(236, 159, 17);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .text-resturent h1{
+        color: #112e41;
+        margin-top: 15px;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .text-resturent p{
+        margin-top: 40px;
+        color: gray;
+        line-height: 1.5em;
+        font-size: 16px;
+    }
+    .text-resturent a button{
+        background-color: white;
+        font-size: 25px;
+        color: rgb(212, 146, 24);
+        border: 2px solid rgb(230, 154, 13);
+        font-family: serif;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        margin-top: 80px;
+    }
+    .text-resturent a button:hover{
+        background-color: orange;
+        color: white;
+    }
+    .Swimming-pool{
+        background-image: url(swimming-pool-img.png);
+        background-repeat: no-repeat;
+        padding-top: 15%;
+        padding-bottom: 90px;
+        margin-left: 52%;
+    }
+    .text-swimming{
+        background-color: whitesmoke; 
+        padding-top: 100px; 
+        padding-left: 100px;
+        padding-bottom: 70px;
+        border-radius: 7px;
+        opacity: 0.9;
+        width: 500px;
+    }
+    .text-swimming h5{
+        color: rgb(236, 159, 17);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .text-swimming h1{
+        color: #112e41;
+        margin-top: 15px;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .text-swimming p{
+        margin-top: 40px;
+        color: gray;
+        line-height: 1.5em;
+        font-size: 16px;
+    }
+    .text-swimming a button{
+        background-color: white;
+        font-size: 25px;
+        color: rgb(212, 146, 24);
+        border: 2px solid rgb(230, 154, 13);
+        font-family: serif;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        margin-top: 80px;
+    }
+    .text-swimming a button:hover{
+        background-color: orange;
+        color: white;
+    }
+    .owner{
+        margin-bottom: 50px;
+        display: flex; 
+    }
+    .header-owner{
+        text-align: center;
+        line-height: 3em;
+        font-size: 45px;
+        color: #092233;
+        text-shadow: 2px 2px gold;
+        margin-top: 80px;
+    }
+    .text-owner{
+        padding-left: 400px;
+        padding-top: 80px;
+    }
+    .text-owner h6{
+        color: orange;
+        font-size: medium;
+    }
+    .text-owner h1{
+        line-height: 3em;
+        color: #112e41;
+        font-family: serif;
+    }
+    .text-owner h4{
+        color: gray;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: lighter;
+        line-height: 2.5em;
+    }
+    .text-owner p{
+        line-height: 1.5em;
+        padding-top: 70px;
+        padding-right: 210px;
+        color: gray;
+    }
+    .owner-box {
+          height: 500px;
+          width: 400px;
+          border: 1px solid #f1f1f1;
+          margin-left: 100px;
+        }        
+        .owner-box-inner {
+          position: relative;
+          height: 100%;
+          transition: transform 0.8s;          
+        }
+        .owner-box-inner:hover {
+          transform: rotateY(180deg);
+          transform-style: preserve-3d; 
+        }        
+        .owner-box-front, .owner-box-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          backface-visibility: hidden;
+        }
+        .owner-box-front img, .owner-box-back img {
+            width: 400px;
+            height: 500px;
+        }        
+        .owner-box-back{
+          transform: rotateY(180deg);
+        }
+</style> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home_Page.html">Home</a></li>
+                <li><a href="About-us.html">About</a></li>
+                <li><a href="Rooms_page.html">Service</a></li>
+                <li><a href="Our Gallery.html">Gallery</a></li>
+                <li><a href="Contact_Page.html">Contact</a></li>
+                <li><a href="Login_Page.html">Login</a></li>                
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="slide-area">
+            <div class="hotel-name">
+                <h1>Welcome To Hotel Karan Raj Palace</h1>            
+            Stay with comfortable   
+            </div>  
+                            
+        <form action="/action_page.php">
+            <div class="container">
+                <div class="date-padding">
+                    <span class="date-title">Check In Date:</span>
+                    <div class="booking-datepicker">
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="date-padding">
+                    <span class="date-title">Check Out Date:</span>
+                    <div class="booking-datepicker">
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="date-padding">
+                    <span class="padding-selector">Adults:</span><br>
+                    <select name="Adults" class="choose">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>                        
+                    </select>
+                </div>
+                <div class="date-padding">
+                    <span class="padding-selector">Children:</span><br>
+                    <select name="Children" class="choose">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>                        
+                    </select>
+                </div>
+                <div class="date-padding">
+                    <span class="padding-selector">Rooms:</span><br>
+                    <select name="Rooms" class="choose">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>                        
+                    </select>
+                </div>
+                <div class="box">                
+                    <input type="submit" formaction="http://www.booking.com" class="Now-book title-book" value="Book Now"> 
+                </div>
+            </div>
+        </form>
+    </div>
+    </main>  
+
+
+    <div class="about">
+        <div class="half_border-img">
+            <p class="experience">25 Years of Service <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Experience</p>            
+        </div>
+        <span class="span-1">
+            <h6 class="title-company">About our company</h6>
+            <h1 style="margin-top: 20px; color: #112e41;">Hotel Karan Raj <br> Palace</h1>
+            <p class="p1">
+                Superior rooms, fine dining <br> restaurants, buzzing night life, summing pool, natural garden.
+            </p>
+            <h4 class="font-paragraph-company">
+                Hotel Karan Raj Palace is your quieter respite where 
+                you can find everything from buzzing nightlife, fine 
+                dining restaurants, massage spas etc within walking distance. 
+                We also have an rooftop swimming pool with a pool bar to sip 
+                cocktails while you are basking in the sun. All our rooms are 
+                beautifully decorated with natural tones and premium furnishings,
+                the wide selection of rooms at Hotel KRP provides exceptional 
+                comfort for singles, couples, families and business travellers.
+            </h4>
+                <a href="Home_Page.html">
+                    <img src="Learn-More Button2.png" alt="Learn_More" style="margin-top: 25%;">
+                </a>            
+        </span>
+    </div>
+
+    <div class="front-title">
+        <h3>Our Rooms</h3>        
+    </div>
+    <div style="margin-top: 50px; display: flex;">
+        <div class="room-container margin-first-room">
+            <div class="room-img">
+                <a href="Rooms_page.html">
+                    <img src="marquee2.jpg" alt="" height="380px" width="370px">
+                </a>
+            </div>
+            <div class="description-room">
+                <h3 class="room-title">
+                   <a href="Rooms_page.html">Classic Double Bed</a> 
+                </h3>
+                <sup>Rs <h1>2000 <small>/ per night</small></h1></sup>
+            </div>
+        </div>
+
+
+
+
+        <div class="room-container margin-room">
+            <div class="room-img">
+                <a href="Rooms_page.html">
+                    <img src="marquee1.webp" alt="" height="380px" width="370px">
+                </a>
+            </div>
+            <div class="description-room">
+                <h3 class="room-title">
+                   <a href="Rooms_page.html">Classic Single Bed</a> 
+                </h3>
+                <sup>Rs <h1>1700 <small>/ per night</small></h1></sup>
+            </div>
+        </div>
+
+        
+        <div class="room-container margin-room">
+            <div class="room-img">
+                <a href="Rooms_page.html">
+                    <img src="One bed suit.jpg" alt="" height="380px" width="370px">
+                </a>
+            </div>
+            <div class="description-room">
+                <h3 class="room-title">
+                   <a href="Rooms_page.html">One Bed suit</a> 
+                </h3>
+                <sup>Rs <h1>1500 <small>/ per night</small></h1></sup>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div style="margin-top: 50px; display: flex;">
+        <div class="room-container margin-first-room">
+            <div class="room-img">
+                <a href="Rooms_page.html">
+                    <img src="Deluxe_King.jfif" alt="" height="380px" width="370px">
+                </a>
+            </div>
+            <div class="description-room">
+                <h3 class="room-title">
+                   <a href="Rooms_page.html">Classic Deluxe King</a> 
+                </h3>
+                <sup>Rs <h1>3000 <small>/ per night</small></h1></sup>
+            </div>
+        </div>
+
+
+
+
+        <div class="room-container margin-room">
+            <div class="room-img">
+                <a href="Rooms_page.html">
+                    <img src="marquee3.jpg" alt="" height="380px" width="370px">
+                </a>
+            </div>
+            <div class="description-room">
+                <h3 class="room-title">
+                   <a href="Rooms_page.html">Classic Queen</a> 
+                </h3>
+                <sup>Rs <h1>2700 <small>/ per night</small></h1></sup>
+            </div>
+        </div>
+
+        
+        <div class="room-container margin-room">
+            <div class="room-img">
+                <a href="Rooms_page.html">
+                    <img src="marquee4.jpg" alt="" height="380px" width="370px">
+                </a>
+            </div>
+            <div class="description-room">
+                <h3 class="room-title">
+                   <a href="Rooms_page.html">Classic Night Bed</a> 
+                </h3>
+                <sup>Rs <h1>900 <small>/ per night</small></h1></sup>
+            </div>
+        </div>
+    </div>
+    <a href="Rooms_page.html">
+        <button class="view-more">View More ></button>
+    </a>
+    
+    <div class="resturent">
+        <div class="text-resturent">
+            <h5>OUR RESTURENT</h5>
+            <h1>Dining & Drinks</h1>
+            <p>
+                We provide any raw, cooked, or processed edible substance used or <br> 
+                intended for use in whole or in part for human consumption, including <br> 
+                ice, water, spirituous liquors, wine, mixed beverages, beer, soft drinks, <br>
+                soda, and other beverages.
+            </p>
+            <a href="Rooms_page.html">
+                <button formaction="Rooms_page.html">Learn More ></button>
+            </a>
+        </div>
+    </div>
+
+    <div class="Swimming-pool">
+        <div class="text-swimming">
+            <h5>OUR POOL</h5>
+            <h1>Swimming Pool</h1>
+            <p>
+                The Pool area is open daily 0800hrs to 2100 hrs.
+                Each Swimmer will enter the name and room number with time in and out register kept at the entrance.
+                Hotel staff or the swimming pool life guard is authorized to demand the guest key card or ask details 
+                about your room number for verification.
+                Except for the Hotel Guests, access to the Swimming Pool Area is only granted to people with a valid entry ticket.
+            </p>
+            <a href="Rooms_page.html">
+                <button formaction="Rooms_page.html">Learn More ></button>
+            </a>
+        </div>
+    </div>
+    <h1 class="header-owner">Meets Owner</h1>
+    <div class="owner">
+        <div class="owner-box">
+            <div class="owner-box-inner">
+              <div class="owner-box-front">
+                <img src="Owner-img.png" alt="first-image">
+              </div>
+              <div class="owner-box-back">
+                <img src="magin.jpg" alt="second-image">
+              </div>
+            </div>
+          </div>
+        <div class="text-owner">
+            <h6>About owner</h6>
+            <h1>Mr. Nawraj Yadav</h1>
+            <h4>Jan 2012 - Present | 11 years 3 months</h4>
+            <h4>Kalaiya</h4>
+            <p>Head the Hotel Karan Raj Palace and also look after the FishTail Lodge in Pokhra.
+               Here to set up a 270 room five star deluxe product while upgrading the current two properties.
+               Head the chain with a five star hotel in Kathmandu - The Hotal Karan Raj Palace, a five star resort in Kalaiya -
+               The Fishtail Lodge and other properties planned in Chitwan, Lumbini and Birgunj.
+            </p>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="column1">
+            <a href="Home_Page.html">
+                <img src="Logo_Hotel 1.jpg" alt="Hotel-logo" width="150px">
+            </a>
+            <div class="app-logo" style="display: flex;">
+                <div>
+                    <a href=" https://www.facebook.com/">
+                        <img src="Facebook-Icon.png" alt="facebook">
+                    </a>
+                </div>&nbsp;&nbsp;
+                <div>
+                    <a href="https://twitter.com">
+                        <img src="Twitter-Icon.png" alt="Twitter">
+                    </a>
+                </div>&nbsp;&nbsp;
+                <div>
+                    <a href="https://www.instagram.com">
+                        <img src="Instagram-Icon.png" alt="Instagram">
+                    </a>
+                </div>&nbsp;&nbsp;
+                <div>
+                    <a href="Home_Page.html">
+                        <img src="Internet-Icon.png" alt="Internet">
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©2023 All rights <br> reserved | This website is <br>created by <ins style="color: rgb(95, 95, 221);">Nawraj Yadav</ins></p>
+            </div>
+        </div>
+
+        <div class="column2 column2-margin">
+            <h3>Quick Links</h3>
+            <a href="#">About Hotel KRP</a> <br>
+            <a href="Rooms_page.html">Our Best Rooms</a> <br>
+            <a href="Our Gallery.html">Our Photo Gellary</a> <br>
+            <a href="#">Pool Service</a> <br>
+        </div>
+
+        <div class="column2 margin-column3">
+            <h3>Reservations</h3>
+            <a href="http://www.ietf.org/rfc/rfc3966.txt">Tel: 053 5667 889</a> <br>
+            <a href="https://www.skype.com/en/features/skype-web">Skype: HotelKRPbooking</a> <br>
+            <a href="Home_Page.html">reservation@hotelriver.com</a> <br>
+        </div>
+
+        <div class="column2 column2-margin">
+            <h3>Our Location</h3>
+            <a href="https://maps.google.co.in">Parsa City Coloni,</a> <br>
+            <a href="https://maps.google.co.in">Kalaiya - 4, Kalaiya Road, 44400</a> <br>
+            <input type="email" placeholder="Email Address">
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page of Hotel Karan Raj Palace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css for login menu-bar.css">
+    <style>
+       *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+      }
+        button{          
+          background-color: #04AA6D;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;               
+        }                
+        button:hover {
+          opacity: 0.8;
+        }       
+        .close {
+          float: right;
+          right: 25px;
+          top: 0;
+          color: #000;
+          font-size: 35px;
+          font-weight: bold;
+        }
+        
+        .close:hover{
+          color: rgb(245, 7, 7);
+          cursor: pointer;
+        }
+        .input {
+          padding: 16px;
+        }          
+          input{          
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        } 
+        .cancel{
+          background-color: rgb(223, 53, 53);
+        } 
+        button a{
+          color: white;
+          text-decoration: none;
+          padding: 2px;
+        }
+        a{
+          float: right;
+          padding: 16px;          
+        }  
+        fieldset{ 
+          width: 450px;         
+          height: fit-content;          
+        }   
+        img{
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }   
+        .formbody{
+          padding-top: 5%;
+          display: flex;
+        }   
+        form{
+          margin-left: 10%;
+          margin-right: 10%;
+          margin-top: 5%;
+        }       
+    </style>
+  </head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home_Page.html">Home</a></li>
+            <li><a href="About-us.html">About</a></li>
+            <li><a href="Rooms_page.html">Service</a></li>
+            <li><a href="Our Gallery.html">Gallery</a></li>
+            <li><a href="Contact_Page.html">Contact</a></li>
+            <li><a href="Login_Page.html">Login</a></li>
+        </ul>
+    </nav>    
+    <div class="formbody">
+      <div>
+        <img src="login side img.jpg" alt="" height="670px" width="500px">
+      </div>
+        <form action="/action_page.php" method="post">
+          
+                <div>
+                  <a href="Home_Page.html">
+                    <div  class="close"> &times;</div>
+                    </a>
+                    <img src="Avatar.png" style="width: 40%;">
+                </div>
+
+                <div class="input">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" style="width:100%;" required>
+                    
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" style="width: 100%;" required>
+                      
+                    <button type="submit" style="width: 100%;">Login</button>
+                    <label>
+                    <input type="checkbox" checked="checked" style="color: blue;">
+                    Remember me
+                  </div>
+                  <div class="input" style="background-color:#f1f1f1">
+                    <button type="button" class="cancel"><a href="Home_Page.html">Cancel</a> </button>
+                    <a href="#">Forgot password?</a>
+                  </div>                                    
+        </form>
+    </div>  
+</body>
+</html>

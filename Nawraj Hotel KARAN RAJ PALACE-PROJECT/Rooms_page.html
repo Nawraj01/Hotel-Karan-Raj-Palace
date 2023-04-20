@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Room</title>
+    <style>
+        *{
+            background: white;
+        }
+        .box{
+            margin-left: 20%;            
+            box-shadow: 2px 2px 5px 2px rgb(179, 179, 179);
+            height: 270px;
+            margin-right: 7%;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        .zoom{
+            transition: transform 0.25s;
+        }
+        .zoom :hover{
+            transform: scale(3);
+            margin-left: 25%;
+            margin-top: 20%;       
+            height: 200px;     
+        }
+        .div-bed{
+            float: left;
+            height: 270px;
+            width: 275px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .description{
+            margin-left: 30%; 
+            padding-top: 10px; 
+            padding-right: 25px; 
+        }
+        h2{
+            font-size: 24px; 
+            color: rgb(39, 39, 39); 
+            font-family: calibri;
+        }
+        img.location-Icon{
+            height: 30px;
+            margin-top: 0px;
+        }
+        sup{
+            padding-left: 5px; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            font-size: small; 
+            color: rgb(148, 148, 148);
+        }
+        div.booking-estimate{
+            float: right;
+        }
+        b{
+            color: rgb(20, 20, 20); 
+            font-size: 30px; 
+            font-stretch: expanded; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div.booking{
+            color: white;
+            background-color: rgb(168, 121, 32);
+            margin-top: 10px; 
+            padding-left: 30px; 
+            width: 85%; 
+            padding-bottom: 10px; 
+            padding-top: 10px; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            font-size: larger;
+        }
+        .text-style{
+            color: rgb(148, 148, 148); 
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            font-size: small;
+            text-decoration: none;
+        }
+        ins.font{
+            font-size: 9px; 
+            color: rgb(148, 148, 148); 
+            font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+        }                
+        .book-now div{
+            float: right;  
+            margin-top: 30px; 
+            float: right;
+        }
+        .width{
+            width: 65%;
+        }
+        ul{
+            display: flex;
+            padding-left: 0%;
+        }
+        ul li{
+            list-style-type: none;
+            color: rgb(148, 148, 148); 
+            font-size: 12px; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 30px;
+        }
+        ul li img{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box">
+            <span class="zoom">   
+                <img src="Deluxe_King.jfif" alt="" class="div-bed">                          <!--Image of room-->
+            </span>
+            <div class="description">
+                <h2>Deluxe King</h2>                                                          <!-- Heading of room -->
+                <img src="location-Icon.png" class="location-Icon"> 
+                <sup>Kalaiya, Nepal</sup>
+                <div class="booking-estimate">
+                    <p class="text-style"> from <br>
+                        <b>Rs 891</b>
+                        <ins class="text-style"> Per night </ins>
+                        <br>
+                        <ins class="font">Additional charges may apply</ins> 
+                    </p>
+                    <a href="https://www.booking.com"> 
+                        <div class="booking"> Book now</div>
+                    </a>
+                </div>
+                <p class="text-style width">
+                    An elevated studio experience with an open-concept plan spanning 374 sq ft, King beds and custom-made queen sofa beds.
+                    Designed for families, groups of friends, or those looking for extra space. 
+                </p>
+                <div>
+                    <ul>
+                        <li>
+                            <img src="Wifi_Icon1-removebg-preview.png"><br>
+                            Internet
+                        </li>
+                        <li>
+                            &nbsp;
+                            &nbsp;
+                            <img src="Bed-Icon.png"><br>
+                            1 Bedroom
+                        </li>
+                        <li> 
+                            &nbsp;
+                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
+                            <img src="Air-conditioning_Icon.png"><br>
+                            Air Conditioning
+                        </li>
+                        <li>
+                            &nbsp;
+                            <img src="Cable_Tv-Icon.png"><br>
+                            Cable TV
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Rooom-2 -->
+
+        <div class="box">
+            <span class="zoom">   
+                <img src="Grand Balcony Suite.jpg" alt="" class="div-bed">                          <!--Image of room-->
+            </span>
+            <div class="description">
+                <h2>Grand Balcony Suite</h2>                                                          <!-- Heading of room -->
+                <img src="location-Icon.png" class="location-Icon"> 
+                <sup>Kalaiya, Nepal</sup>
+                <div class="booking-estimate">
+                    <p class="text-style"> from <br>
+                        <b>Rs 999</b>
+                        <ins class="text-style"> Per night </ins>
+                        <br>
+                        <ins class="font">Additional charges may apply</ins> 
+                    </p>
+                    <a href="https://www.booking.com"> 
+                        <div class="booking"> Book now</div>
+                    </a>
+                </div>
+                <p class="text-style width">
+                    Bring back the rich history and glory days of Hurontario St, and soak in the views from our Grand Balcony Suites. Enjoy a private balcony, 
+                    King size bed,kitchen. Sit back and enjoy the thoughtfully designed retro and modern touches all throughout!
+                </p>
+                <div>
+                    <ul>
+                        <li>
+                            <img src="Wifi_Icon1-removebg-preview.png"><br>
+                            Internet
+                        </li>
+                        <li>
+                            &nbsp;
+                            &nbsp;
+                            <img src="Bed-Icon.png"><br>
+                            1 Bedroom
+                        </li>
+                        <li> 
+                            &nbsp;
+                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
+                            <img src="Air-conditioning_Icon.png"><br>
+                            Air Conditioning
+                        </li>
+                        <li>
+                            &nbsp;
+                            <img src="Cable_Tv-Icon.png"><br>
+                            Cable TV
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Room-3 -->
+        <div class="box">
+            <span class="zoom">   
+                <img src="One bed suit.jpg" alt="" class="div-bed">                          <!--Image of room-->
+            </span>
+            <div class="description">
+                <h2>One Bedroom Suite</h2>                                                          <!-- Heading of room -->
+                <img src="location-Icon.png" class="location-Icon"> 
+                <sup>Kalaiya, Nepal</sup>
+                <div class="booking-estimate">
+                    <p class="text-style"> from <br>
+                        <b>Rs 699</b>
+                        <ins class="text-style"> Per night </ins>
+                        <br>
+                        <ins class="font">Additional charges may apply</ins> 
+                    </p>
+                    <a href="https://www.booking.com"> 
+                        <div class="booking"> Book now</div>
+                    </a>
+                </div>
+                <p class="text-style width">
+                    An elevated studio experience with an open-concept plan spanning 374 sq ft, King beds and custom-made queen sofa beds.
+                    Designed for families, groups of friends, or those looking for extra space. 
+                </p>
+                <div>
+                    <ul>
+                        <li>
+                            <img src="Wifi_Icon1-removebg-preview.png"><br>
+                            Internet
+                        </li>
+                        <li>
+                            &nbsp;
+                            &nbsp;
+                            <img src="Bed-Icon.png"><br>
+                            1 Bedroom
+                        </li>
+                        <li> 
+                            &nbsp;
+                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
+                            <img src="Air-conditioning_Icon.png"><br>
+                            Air Conditioning
+                        </li>
+                        <li>
+                            &nbsp;
+                            <img src="Cable_Tv-Icon.png"><br>
+                            Cable TV
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+
+
+        <!-- Rooom-4 -->
+        <div class="box">
+            <span class="zoom">   
+                <img src="classic-queen.jpg" alt="" class="div-bed">                          <!--Image of room-->
+            </span>
+            <div class="description">
+                <h2>Classic Queens</h2>                                                          <!-- Heading of room -->
+                <img src="location-Icon.png" class="location-Icon"> 
+                <sup>Kalaiya, Nepal</sup>
+                <div class="booking-estimate">
+                    <p class="text-style"> from <br>
+                        <b>Rs 891</b>
+                        <ins class="text-style"> Per night </ins>
+                        <br>
+                        <ins class="font">Additional charges may apply</ins> 
+                    </p>
+                    <a href="https://www.booking.com"> 
+                        <div class="booking"> Book now</div>
+                    </a>
+                </div>
+                <p class="text-style width">
+                    Designed for a family or friends, our Deluxe Queens room features an open concept plan with two queen beds.
+                 Enjoy luxurious TV, wifi and record player coll- ection. Guaranteed good vibes, each and every stay!
+
+                </p>
+                <div>
+                    <ul>
+                        <li>
+                            <img src="Wifi_Icon1-removebg-preview.png"><br>
+                            Internet
+                        </li>
+                        <li>
+                            &nbsp;
+                            &nbsp;
+                            <img src="Bed-Icon.png"><br>
+                            1 Bedroom
+                        </li>
+                        <li> 
+                            &nbsp;
+                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
+                            <img src="Air-conditioning_Icon.png"><br>
+                            Air Conditioning
+                        </li>
+                        <li>
+                            &nbsp;
+                            <img src="Cable_Tv-Icon.png"><br>
+                            Cable TV
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>     
+        
+        
+        <!-- Rooom-5 -->
+        <div class="box">
+            <span class="zoom">   
+                <img src="Bed.jfif" alt="" class="div-bed">                          <!--Image of room-->
+            </span>
+            <div class="description">
+                <h2>Classic Kings</h2>                                                          <!-- Heading of room -->
+                <img src="location-Icon.png" class="location-Icon"> 
+                <sup>Kalaiya, Nepal</sup>
+                <div class="booking-estimate">
+                    <p class="text-style"> from <br>
+                        <b>Rs 789</b>
+                        <ins class="text-style"> Per night </ins>
+                        <br>
+                        <ins class="font">Additional charges may apply</ins> 
+                    </p>
+                    <a href="https://www.booking.com"> 
+                        <div class="booking"> Book now</div>
+                    </a>
+                </div>
+                <p class="text-style width">
+                    Our spacious classic rooms span (300-320 sq ft) with an open floor plan, King bed and a lounge area.
+                     Enjoy luxurious linens, baths, plush towels, robes, Nespresso.
+                      Sit back and enjoy the thoughtfully designed retro and modern touches all throughout.
+                </p>
+                <div>
+                    <ul>
+                        <li>
+                            <img src="Wifi_Icon1-removebg-preview.png"><br>
+                            Internet
+                        </li>
+                        <li>
+                            &nbsp;
+                            &nbsp;
+                            <img src="Bed-Icon.png"><br>
+                            1 Bedroom
+                        </li>
+                        <li> 
+                            &nbsp;
+                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
+                            <img src="Air-conditioning_Icon.png"><br>
+                            Air Conditioning
+                        </li>
+                        <li>
+                            &nbsp;
+                            <img src="Cable_Tv-Icon.png"><br>
+                            Cable TV
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+
+
+
+    </div>
+</body>
+</html>
