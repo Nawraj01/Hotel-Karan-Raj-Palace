@@ -18,7 +18,6 @@
 ![location-Icon](https://user-images.githubusercontent.com/111939875/233248418-2072de90-a7c2-433b-8f3e-041eac854525.png)
 ![login side img](https://user-images.githubusercontent.com/111939875/233248423-14b0eb0b-27bd-45fe-b932-096abed6e4f1.jpg)
 ![Logo_Hotel 1](https://user-images.githubusercontent.com/111939875/233248425-eefb04fc-c2e2-4974-8a44-212e3c26296a.jpg)
-![magin](https://user-images.githubusercontent.com/111939875/233248426-d57756c5-e8d2-4dbb-863f-ead747850f7b.jpg)
 ![Mail_Icon](https://user-images.githubusercontent.com/111939875/233248430-2d369622-9890-4437-8e8c-5d98d2d9b774.png)
 ![marquee2](https://user-images.githubusercontent.com/111939875/233248434-db3f5440-588f-4369-b18e-c8507e5e70e2.jpg)
 ![marquee3](https://user-images.githubusercontent.com/111939875/233248440-fcf68e57-b98c-48e7-999d-8bf3ad29893a.jpg)
