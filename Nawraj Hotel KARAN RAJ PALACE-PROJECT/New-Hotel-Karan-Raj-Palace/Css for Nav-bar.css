@@ -1,0 +1,33 @@
+/*Css for menu bar.*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 hsl(0, 0%, 75%);
+}
+nav ul{
+    display: inline-flex;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    list-style-type: none;
+}
+nav ul li{
+    padding-left: 40%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+nav ul li a:hover{
+    color: grey;
+}
