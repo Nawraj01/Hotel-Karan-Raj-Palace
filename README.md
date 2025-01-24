@@ -23,7 +23,6 @@
 ![marquee2](https://user-images.githubusercontent.com/111939875/233248434-db3f5440-588f-4369-b18e-c8507e5e70e2.jpg)
 ![marquee3](https://user-images.githubusercontent.com/111939875/233248440-fcf68e57-b98c-48e7-999d-8bf3ad29893a.jpg)
 ![marquee4](https://user-images.githubusercontent.com/111939875/233248443-f23ccf09-e147-4a11-8692-bfa526d24c5b.jpg)
-![My-img](https://user-images.githubusercontent.com/111939875/233248448-34f50c92-dc73-45f1-bb44-6aecd7396c7c.jpg)
 ![One bed suit](https://user-images.githubusercontent.com/111939875/233248453-54af890c-a3cb-4557-bac9-722736a5b0d7.jpg)
 ![phone-icon](https://user-images.githubusercontent.com/111939875/233248457-7c9c8f8d-1994-400b-8f6f-4b976a9bef47.png)
 ![Rancho-Mirage-Home-Additions1](https://user-images.githubusercontent.com/111939875/233248459-239a3bf3-5d5f-4008-8a8f-b9fa5deb6598.jpg)
